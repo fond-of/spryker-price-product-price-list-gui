@@ -58,7 +58,6 @@ class PriceListPriceDimensionForm extends AbstractType
         $builder->add(PriceProductDimensionTransfer::ID_PRICE_LIST, ChoiceType::class, [
             'choices' => $options[static::OPTION_VALUES_PRICE_LIST_CHOICES],
             'placeholder' => static::FIELD_PLACEHOLDER_PRICE_LIST,
-            'choices_as_values' => true,
             'label' => static::FIELD_LABEL_PRICE_LIST,
             'attr' => [
                 'template_path' => $this->getTemplatePath(),
