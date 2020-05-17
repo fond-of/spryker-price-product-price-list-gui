@@ -23,8 +23,6 @@ class PriceProductPriceListGuiCommunicationFactory extends AbstractCommunication
     }
 
     /**
-     * @throws
-     *
      * @return \FondOfSpryker\Zed\PriceProductPriceListGui\Dependency\Facade\PriceProductPriceListGuiToPriceListFacadeInterface
      */
     public function getPriceListFacade(): PriceProductPriceListGuiToPriceListFacadeInterface
