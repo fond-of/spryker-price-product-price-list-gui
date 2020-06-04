@@ -20,7 +20,7 @@ class PriceListProductConcreteFormExpanderPlugin extends AbstractPlugin implemen
     protected const FORM_PRICE_DIMENSION = 'price_dimension';
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      *
      * @api
      *

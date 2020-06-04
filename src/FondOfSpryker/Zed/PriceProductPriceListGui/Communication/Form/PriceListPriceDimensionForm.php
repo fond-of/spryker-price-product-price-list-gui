@@ -64,6 +64,7 @@ class PriceListPriceDimensionForm extends AbstractType
                 'data-type' => PriceProductPriceListConstants::PRICE_DIMENSION_PRICE_LIST,
             ],
         ]);
+
         return $this;
     }
 
